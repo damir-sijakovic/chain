@@ -13,8 +13,8 @@ all functions are executed in order you set with priority argument.
 #### Add functions to keyword 'alpha':
 
         
-dsijak\hook('alpha', function(){ print "hello alpha text 1!";}, 1);
-dsijak\hook('alpha', function(){ print "hello alpha text 2!";}, 2);
+	dsijak\hook('alpha', function(){ print "hello alpha text 1!";}, 1);
+	dsijak\hook('alpha', function(){ print "hello alpha text 2!";}, 2);
 
         
 #### Call keyword 'alpha':
