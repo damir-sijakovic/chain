@@ -1,0 +1,25 @@
+{
+    "name": "dsijak/hook",
+    "description": "Basically, does what WP hooks do. Without any unnecessary overcomplicated features.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Damir Šijaković",
+            "email": "damir.sijakovic@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {        
+        "files": [
+                "src/hook.php"
+            ],
+        "psr-4": {
+            "dsijak\\": "src"
+        }
+    }
+}
+
+
+
